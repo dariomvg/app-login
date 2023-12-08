@@ -1,0 +1,37 @@
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    border-bottom:1px solid #fff;
+}
+
+.link {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #41adff;
+    transition: .5s;
+    padding: 10px;
+    border-radius: 25px;
+}
+.link:hover {
+    background-color: #0b73928f;
+}
+.btn-link {
+    padding: 14px;
+    border: 1px solid #0b7392;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn-link:hover {
+    transition: background .5s;
+    background-color: #0b7392;
+}
